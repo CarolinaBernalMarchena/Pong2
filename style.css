@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+}
+
+canvas {
+    background-color: #000;
+    border: 2px solid #fff;
+}
+
+div.a{
+    display: grid;
+    color: white;
+    font-size: 30px;
+    width: fit-content;
+    height: fit-content;
+}
+
+div{
+    display: inline-block;
+    color: white;
+    font-size: 30px;
+    width: fit-content;
+}
+
+div.j1 {
+    float: left;
+}
+
+div.j2 {
+    float: right;
+}
+
+div.pts {
+    font-weight: bold;
+    width: auto;
+}
